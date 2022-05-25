@@ -1,27 +1,45 @@
-h3 {
-    color: black;
-    text-align: center;
-    margin-top: 25%;
-    font-family: roc-grotesk;
-    font-weight: 500;
+.container {
+    margin: 20%;
+}
+
+.menu {
+    display: grid;
+    grid-template-areas:
+    'option-left option-right'
+    'option-left option-right';
+}
+
+.option-left {
+    margin-right: 3.75px;
+}
+
+.option-right {
+    margin-left: 3.75px;
+}
+
+.menu img {
+    width: 100%;
+    opacity: 100%;
+}
+
+.menu img:hover {
+    width: 100%;
+    opacity: 75%;
+    transition: 0.5s;
 }
 
 p {
     text-align: center;
-    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12.5px;
+    color: #130291;
+    margin-top: 15px;
 }
 
-p a {
-    color: black;
-    margin-top: 0;
-    font-family: roc-grotesk;
-    font-weight: 400;
-    font-size: small;
-    text-decoration: none;
-}
-
-p a:hover {
-    color: #00973F;
-    text-decoration: none;
-    transition: 0.5s;
+footer {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #130291;
+    margin-bottom: 20px;
 }
