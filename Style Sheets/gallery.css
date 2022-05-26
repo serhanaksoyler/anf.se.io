@@ -1,12 +1,23 @@
 .container {
-    margin: 15px;
+    width: 1200px;
+    columns: 3;
+    column-gap: 15px;
+    margin: 15px auto;
 }
 
 .container img {
     width: 100%;
+    overflow: hidden;
     border-radius: 12px;
     border: #E1DDFF 2px solid ;
     margin-bottom: 10px;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        columns: 1;
+        width: calc(100% - 7%);
+    }
 }
 
 .disclaimer {
