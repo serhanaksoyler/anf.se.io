@@ -61,6 +61,20 @@ p {
     transition: 0.4s;
 }
 
+@media (max-width: 1200px) {
+    .content .button {
+        display: block;
+        position: absolute;
+        z-index: 20;
+        bottom: 23px;
+        right: 7px;
+        height: 30px;
+        border-radius: 6px;
+        opacity: 100%;
+        transition: 0.4s;
+    }
+}
+
 .button {
     position: absolute;
     z-index: 20;
