@@ -9,7 +9,7 @@
     width: 100%;
     overflow: hidden;
     border-radius: 12px;
-    border: red 2px solid ;
+    border: #E1DDFF 2px solid ;
     margin-bottom: 10px;
 }
 
@@ -37,11 +37,50 @@ p {
     position: relative;
 }
 
-.button {
+.content .button {
+    display: block;
+    position: absolute;
+    z-index: 20;
+    bottom: 20.5px;
+    right: 7px;
+    height: 30px;
+    border-radius: 6px;
+    opacity: 0%;
+    transition: 0.4s;
+}
+
+.content:hover .button {
+    display: block;
     position: absolute;
     z-index: 20;
     bottom: 23px;
-    right: 8px;
+    right: 7px;
+    height: 30px;
+    border-radius: 6px;
+    opacity: 100%;
+    transition: 0.4s;
+}
+
+.button {
+    position: absolute;
+    z-index: 20;
+    bottom: 20.5px;
+    right: 7px;
+    height: 30px;
+    border-radius: 6px;
+    opacity: 100%;
+    transition: 0.4s;
+}
+
+.button:hover {
+    position: absolute;
+    z-index: 20;
+    bottom: 23px;
+    right: 7px;
+    height: 30px;
+    border-radius: 6px;
+    opacity: 75%;
+    transition: 0.4s;
 }
 
 .disclaimer a {
