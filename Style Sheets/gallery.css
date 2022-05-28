@@ -1,5 +1,6 @@
 .container {
-    width: 1200px;
+    width: calc(100% - 7%);
+    max-width: 1200px;
     columns: 3;
     column-gap: 15px;
     margin: 15px auto;
