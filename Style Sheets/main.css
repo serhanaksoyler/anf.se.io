@@ -23,8 +23,15 @@ footer {
     display: flex;
     position: absolute;
     bottom: 6px;
+    right: 10px;
     z-index: 30;
     height: 18px;
     width: 18px;
-    right: 10px;
+    opacity: 100%;
+    transition: 0.4s;
+}
+
+.tap:hover {
+    opacity: 75%;
+    transition: 0.4s;
 }
