@@ -61,6 +61,20 @@ p {
     transition: 0.4s;
 }
 
+.view .button {
+    right: 42px;
+}
+
+.content:hover .view .button {
+    right: 42px;
+    transition: 0.4s;
+}
+
+.content:hover .button:hover {
+    opacity: 75%;
+    transition: 0.4s;
+}
+
 @media (max-width: 1200px) {
     .content .button {
         display: block;
@@ -68,6 +82,17 @@ p {
         z-index: 20;
         bottom: 23px;
         right: 7px;
+        height: 30px;
+        border-radius: 6px;
+        opacity: 100%;
+        transition: 0.4s;
+    }
+    .content .view .button {
+        display: block;
+        position: absolute;
+        z-index: 20;
+        bottom: 23px;
+        right: 42px;
         height: 30px;
         border-radius: 6px;
         opacity: 100%;
