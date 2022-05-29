@@ -22,8 +22,9 @@ footer {
 .tap {
     display: flex;
     position: fixed;
-    bottom: 6px;
-    right: 10px;
+    padding: 2px;
+    bottom: 4px;
+    right: 8px;
     z-index: 30;
     height: 18px;
     width: 18px;
